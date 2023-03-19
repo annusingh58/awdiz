@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head><script src="https://kit.fontawesome.com/5553f878fa.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        #screen {
+            width: 100%;
+            /* height: 500px; */
+            /* border: 5px solid blue; */
+        }
+
+        #screen>div {
+            width: 80%;
+            margin: auto;
+            /* border: 5px solid black; */
+        }
+
+        #screen>div:nth-child(1) {
+            height: 400px;
+            background-image: url(https://templatemo.com/templates/templatemo_539_simple_house/img/simple-house-01.jpg);
+            background-size: 100% 400px;
+        }
+
+        
+
+        #screen>div:nth-child(2) {
+            height: 300px;
+
+        }
+
+        #screen>div:nth-child(3) {
+            height: 350px;
+        }
+
+        #screen>div:nth-child(4) {
+            height: 300px;
+
+        }
+
+        #screen>div:nth-child(1)>div:nth-child(1) {
+            height: 100px;
+            width: 100%;
+            /* border: 5px solid green; */
+            margin-top: 270px;
+            display:flex;
+            justify-content: space-between;
+        }
+
+        #screen>div:nth-child(1)>div:nth-child(1)>div:nth-child(1) {
+            height: 100px;
+            width: 30%;
+            /* border: 5px solid red; */
+            display: flex;
+            justify-content: space-between;
+
+        }
+
+        #screen>div:nth-child(1)>div:nth-child(1)>div:nth-child(2) {
+            height: 100px;
+            width: 30%;
+            /* border: 5px solid yellow; */
+            color: white;
+            display:flex;
+            justify-content: space-around;
+            
+        }
+        #screen>div:nth-child(1)>div:nth-child(1)>div:nth-child(1) >div:nth-child(1){
+            height: 100px;
+            width:20% ;
+            /* border: 5px solid crimson; */
+            margin-left: 10px;
+            
+        }
+        #screen>div:nth-child(1)>div:nth-child(1)>div:nth-child(1) >div:nth-child(2){
+            height: 100px;
+            width:80% ;
+            /* border: 5px solid crimson; */
+            
+        }
+
+         #screen>div:nth-child(1)>div:nth-child(1)>div:nth-child(1) >div:nth-child(1)>i{
+            font-size: 50px;
+            color: white;
+        
+
+
+           } 
+           #screen>div:nth-child(1)>div:nth-child(1)>div:nth-child(1) >div:nth-child(2)>h1{
+            font-size: 20px;
+            color: white;
+            margin-bottom: 10px;
+
+
+           }
+           #screen>div:nth-child(1)>div:nth-child(1)>div:nth-child(1) >div:nth-child(2)>h4{
+            font-size: 10px;
+            color: white;
+
+
+           }
+           #screen>div:nth-child(2)>h1,p{
+            text-align: center;
+           }
+          #screen>div:nth-child(2)>div:nth-child(1){
+            width:60%;
+            margin: auto;
+            margin-top: 50px;
+          }
+          #screen>div:nth-child(2)>div:nth-child(1)>h1{
+            text-align:center;
+            margin-bottom: 15px;
+          }
+          #screen>div:nth-child(2)>div:nth-child(1)>p{
+             color: grey;
+            
+          }
+          #screen>div:nth-child(2)>div:nth-child(2){
+            display: flex;
+            justify-content:space-evenly;
+            color: green;
+            width: 30%;
+            margin: auto;
+            margin-top: 55px;
+            /* border :2px solid green; */
+
+          }
+          #screen>div:nth-child(2)>div:nth-child(2)>div{
+            border:2px solid green;
+            height: 35px;
+            width: 20%;
+            text-align: center;
+            
+          }
+          
+          #screen>div:nth-child(3){
+            display:flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            height: 700px;
+          }
+          #screen>div:nth-child(3)>div{
+            width:23%;
+            height:300px;
+            /* border:3px solid red; */
+
+          }
+
+
+          #screen>div:nth-child(3)>div > img {
+            width:100%;
+            height:150px;
+            margin-bottom: 20px;
+            
+
+          }
+          #screen>div:nth-child(3)>div >h3{
+            font-size: 24px;
+            text-align:left;
+            color:blue;
+            margin-bottom: 20px;
+
+          }
+          #screen>div:nth-child(3)>div >p{
+            text-align: left;
+            color: gray;
+            margin-bottom: 20px;
+
+          }
+          #screen>div:nth-child(3)>div >span{
+            
+            color: blueviolet;
+            margin-bottom: 20px;
+          }
+
+        #screen>div:nth-child(4){
+            display: flex;
+    
+        }
+
+          
+
+          #screen>div:nth-child(4)>div:nth-child(1){
+            margin-top: 30px;
+          }
+          #screen>div:nth-child(4)>div:nth-child(2)>p{
+            margin-top: 30px;
+            margin-left :25px;
+            text-align: left;
+
+          }
+          #screen>div:nth-child(4)>div:nth-child(2)>h2{
+            margin-top: 30px;
+            margin-left: 25px;
+            
+          }
+
+          #screen > div:nth-child(4) > div:nth-child(3) > button{
+                background-color: white;
+                border-color: grey;
+                color: black;
+                padding: 15px 45px;
+                text-align: right;
+                margin-top: 230px;
+                margin-right: 20px;
+                border-radius: 45px;
+                /* border: none; */
+            
+          }
+
+          #screen > div:nth-child(4) > div:nth-child(3) > button:hover{
+            background-color: #1a6692;
+            transition: 0.2s;
+            color: white;
+          }
+
+
+
+          
+
+    </style>
+</head>
+
+<body>
+    <div id="screen">
+        <div>
+            <div>
+
+                <div>
+                    <div>
+                        <i class="fa-regular fa-square"></i>
+                    </div>
+                    <div><h1>Food House</h1>
+                        <h4>Resturant</h4>
+                    </div>
+                    
+                </div>
+
+                <div>
+
+                  <div>Home</div>
+                  <div>About</div>
+                  <div>content</div>
+                </div>
+                
+            </div>
+        </div>
+
+        <div>
+            <div>
+                <h1>Welcome to Food House</h1>
+                <p>Total 3 HTML pages are included in this template. Header image has a parallax effect. You can feel free to download, edit and use this TemplateMo layout for your commercial or non-commercial websites.</p>
+            </div>
+            <div>
+                <div> <p>pizza</p></div>
+                <div><p>salad</p></div>
+                <div><p>noodle</p></div>
+            </div>
+        </div>
+         
+        <div>
+            <div>
+                
+                <img src="/01.jpg"/>
+                <h3>Fusce dictum finibus</h3>
+                <p>Nam in suscipit nisi, sit amet consectetur metus. Ut sit amet tellus accumsan</p>
+                <span>$55</span>
+            </div>
+
+            <div>
+                <img src="/1.jpg"/>
+                <h3>Aliquam sagittis</h3>
+                <p>Nam in suscipit nisi, sit amet consectetur metus. Ut sit amet tellus accumsan</p>
+                <span>$65 / $70</span>
+            </div>
+
+            <div>
+                <img src="/03.jpg"/>
+                <h3>Sed varius turpis</h3>
+                <p>Nam in suscipit nisi, sit amet consectetur metus.</p>
+                <span>$30.50</span>
+            </div>
+
+            <div>
+                <img src="/04.jpg"/>
+                <h3>Aliquam sagittis</h3>
+                <p>Nam in suscipit nisi, sit amet consectetur metus.</p>
+                <span>$25.50</span>
+            </div>
+
+            <div>
+                <img src="/05.jpg"/>
+                <h3>Maecenas eget justo</h3>
+                <p>Nam in suscipit nisi, sit amet consectetur metus.</p>
+                <span>$80.</span>
+            </div>
+
+            <div>
+                <img src="/06.jpg"/>
+                <h3>Quisque et felis eros</h3>
+                <p>Nam in suscipit nisi, sit amet consectetur metus.</p>
+                <span>$55.</span>
+
+            </div>
+            <div>
+                <img src="/07.jpg"/>
+                <h3>Sed ultricies dui</h3>
+                <p>Nam in suscipit nisi, sit amet consectetur metus. </p>
+                <span>$75</span>
+            </div>
+
+            <div>
+                <img src="/08.jpg"/>
+                <h3>Donec porta consequat</h3>
+                <p>Nam in suscipit nisi, sit amet consectetur metus</p>
+                <span>$90</span>
+            </div>
+        </div>
+        
+        
+        <div>
+            <div>
+                <img src="/img-09.jpg"/> 
+            </div>
+            <div>
+                <h2>Maecenas nulla neque</h2>
+                
+                <p>Redistributing this template as a downloadable ZIP file on any template collection site is strictly prohibited. You will need to talk to us for additional permissions about our templates. Thank you.</p>
+           
+            </div>
+            <div>
+                <button>Read More</button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
